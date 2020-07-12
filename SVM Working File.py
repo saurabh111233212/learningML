@@ -1,3 +1,4 @@
+# support vector machine!
 import sklearn
 from sklearn import datasets
 from sklearn import svm

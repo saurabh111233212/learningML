@@ -1,3 +1,4 @@
+# k means clustering algorithm!
 import numpy as np
 import sklearn
 from sklearn.preprocessing import scale
@@ -26,5 +27,6 @@ def bench_k_means(estimator, name, data):
              metrics.silhouette_score(data, estimator.labels_,
                                       metric='euclidean')))
 
-clf = KMeans(n_clusters = k, init='random', n_init=10)
+
+clf = KMeans(n_clusters=k, init='random', n_init=10)
 bench_k_means(clf, "1", data)

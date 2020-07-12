@@ -1,3 +1,4 @@
+# simple linear regression model
 import pandas as pd
 import numpy as np
 import sklearn
